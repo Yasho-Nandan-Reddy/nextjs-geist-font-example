@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPropertyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Property Details"
+            android:textSize="24sp"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvTenantInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenant Information"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvLeaseDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lease Duration"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvRentDueStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rent Due Status"
+            android:textSize="18sp"
+            android:textColor="@color/primary_text"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
