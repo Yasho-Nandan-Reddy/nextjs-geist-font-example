@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvReceiptTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Receipt"
+        android:textSize="20sp"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvPaymentAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount: $0.00"
+        android:textSize="16sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvPaymentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: --/--/----"
+        android:textSize="16sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvPaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method: N/A"
+        android:textSize="16sp"
+        android:textColor="@color/primary_text"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnCloseReceipt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:backgroundTint="@color/slate_blue"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
